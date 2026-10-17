@@ -32,5 +32,5 @@ def write_diff(old: Path, new: Path, output: Path) -> dict[str, list[str]]:
     """Write a machine-readable diff artifact."""
     result = diff_commands(old, new)
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps({"old": str(old), "new": str(new), **result}, indent=2) + "\n", encoding="utf-8")
+    output.write_text(json.dumps({"old": old.name, "new": new.name, **result}, indent=2) + "\n", encoding="utf-8")
     return result

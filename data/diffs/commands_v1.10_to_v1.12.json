@@ -1,6 +1,6 @@
 {
-  "old": "/home/ubuntu/sim800-platform-all/data/tmp/commands-v1.10.jsonl",
-  "new": "/home/ubuntu/sim800-platform-all/data/tmp/commands-v1.12.jsonl",
+  "old": "commands-v1.10.jsonl",
+  "new": "commands-v1.12.jsonl",
   "added": [
     "AT+CAND",
     "AT+CN",

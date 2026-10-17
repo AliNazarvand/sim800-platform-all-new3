@@ -1,6 +1,6 @@
 {
-  "old": "/home/ubuntu/sim800-platform-all/data/tmp/commands-v1.01.jsonl",
-  "new": "/home/ubuntu/sim800-platform-all/data/tmp/commands-v1.10.jsonl",
+  "old": "commands-v1.01.jsonl",
+  "new": "commands-v1.10.jsonl",
   "added": [
     "AT+CAGCSET",
     "AT+CANT",
