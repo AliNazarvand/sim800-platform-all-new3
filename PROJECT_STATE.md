@@ -36,3 +36,9 @@ Implementation complete for local build v0.1.0. No remote is configured and no p
 | License Compatibility | PASS | data/validation/gate_license_compatibility.json |
 
 Final commands: `pytest --cov=src` passed with 11 tests and 93.10% coverage; `mypy src/`, `ruff check .`, and `pre-commit run --all-files` all passed. Cumulative platform credit telemetry remains unavailable; no credit number is inferred or fabricated.
+
+## Credit Estimate
+
+Estimated cumulative project work-credit: **4.0 internal units**. This is explicitly an Estimated planning value, not platform billing telemetry or an account balance.
+
+Planning summary: `planning/A_Project_Backlog.csv` contains **10 Done tasks**. Unit suite contains **32 test functions**; full suite contains **34 passing tests**.
